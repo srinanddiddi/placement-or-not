@@ -6,9 +6,9 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-st.set_page_config(page_title="Student Placement - Random Forest", layout="wide")
+st.set_page_config(page_title="Student Placement", layout="wide")
 
-st.title("Student Placement Prediction (Random Forest)")
+st.title("Student Placement Prediction")
 st.caption("Uploads a CSV, preprocesses, trains a model, and shows metrics + predictions.")
 
 # ---------- Sidebar controls ----------
